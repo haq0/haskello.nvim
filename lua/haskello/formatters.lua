@@ -18,7 +18,6 @@ local arg_maps = {
     format_imports = "--format-imports",
     indentation = "--indentation",
     column_limit = "--column-limit",
-    respecting_pragma = "--respecting-pragma",
     newlines_between_decls = "--newlines-between-decls",
     haddock_style = "--haddock-style",
     record_brace_space = "--record-brace-space",
