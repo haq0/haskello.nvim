@@ -38,7 +38,6 @@ M.defaults = {
         single_deriving_parens = "always",
         unicode = "never",
         respectful = true,
-        import_grouping = "legacy",
       }
     },
     hindent = {

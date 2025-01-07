@@ -23,7 +23,6 @@ local arg_maps = {
     single_deriving_parens = "--single-deriving-parens",
     unicode = "--unicode",
     respectful = "--respectful",
-    import_grouping = "--import-grouping",
   },
   ormolu = {
     mode = "--mode",
