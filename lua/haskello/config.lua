@@ -32,7 +32,6 @@ M.defaults = {
         haddock_style = "multi",
         indentation_policy = "indent",
         record_brace_space = true,
-        newlines_after_imports = "always",
         comma_style = "leading",
         ghc_opt = {},
       }

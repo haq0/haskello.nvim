@@ -24,7 +24,6 @@ local arg_maps = {
     haddock_style = "--haddock-style",
     indentation_policy = "--indentation-policy",
     record_brace_space = "--record-brace-space",
-    newlines_after_imports = "--newlines-after-imports",
     comma_style = "--comma-style",
     ghc_opt = "--ghc-opt"
   },
