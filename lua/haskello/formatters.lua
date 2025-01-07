@@ -24,7 +24,6 @@ local arg_maps = {
     unicode = "--unicode",
     respectful = "--respectful",
     import_grouping = "--import-grouping",
-    sort_constraints = "--sort-constraints",
   },
   ormolu = {
     mode = "--mode",

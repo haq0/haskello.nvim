@@ -39,7 +39,6 @@ M.defaults = {
         unicode = "never",
         respectful = true,
         import_grouping = "legacy",
-        sort_constraints = false,
       }
     },
     hindent = {
