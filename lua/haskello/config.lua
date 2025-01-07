@@ -22,36 +22,47 @@ M.defaults = {
       cmd = "fourmolu",
       args = {
         mode = "inplace",
-        check_idempotence = false,
-        format_imports = true,
-        indentation = 4,
-        column_limit = 80,
+        indentation = 2,
+        column_limit = "none",
+        function_arrows = "trailing",
+        comma_style = "leading",
+        import_export_style = "leading",
+        indent_wheres = true,
+        record_brace_space = true,
         newlines_between_decls = 1,
         haddock_style = "multi-line",
-        record_brace_space = true,
-        comma_style = "leading",
-      }
-    },
-    hindent = {
-      cmd = "hindent",
-      args = {
-        indent_size = 2,
-        line_length = 80,
-        sort_imports = false,
-        force_trailing_newline = true,
-        preserve_line_breaks = false,
-        preserve_vertical_space = false,
-        flexible_oneline = false,
+        haddock_style_module = "null",
+        let_style = "auto",
+        in_style = "right-align",
+        single_constraint_parens = "always",
+        single_deriving_parens = "always",
+        unicode = "never",
+        respectful = true,
+        import_grouping = "legacy",
+        sort_constraints = false,
+        sort_derived_classes = false,
+        sort_deriving_clauses = false
+      },
+      hindent = {
+        cmd = "hindent",
+        args = {
+          indent_size = 2,
+          line_length = 80,
+          sort_imports = false,
+          force_trailing_newline = true,
+          preserve_line_breaks = false,
+          preserve_vertical_space = false,
+          flexible_oneline = false,
+        }
       }
     }
   }
-}
 
-M.options = {}
+  M.options = {}
 
-function M.setup(opts)
+    function M.setup(opts)
   M.options = vim.tbl_deep_extend("force", M.defaults, opts or {})
 end
 
-return M
+  return M
 
