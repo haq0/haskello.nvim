@@ -15,17 +15,14 @@ local arg_maps = {
   fourmolu = {
     mode = "--mode",
     check_idempotence = "--check-idempotence",
-    no_cabal = "--no-cabal",
     format_imports = "--format-imports",
     indentation = "--indentation",
     column_limit = "--column-limit",
     respecting_pragma = "--respecting-pragma",
     newlines_between_decls = "--newlines-between-decls",
     haddock_style = "--haddock-style",
-    indentation_policy = "--indentation-policy",
     record_brace_space = "--record-brace-space",
     comma_style = "--comma-style",
-    ghc_opt = "--ghc-opt"
   },
   hindent = {
     indent_size = "--indent-size",

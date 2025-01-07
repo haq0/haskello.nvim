@@ -23,17 +23,14 @@ M.defaults = {
       args = {
         mode = "inplace",
         check_idempotence = false,
-        no_cabal = false,
         format_imports = true,
         indentation = 4,
         column_limit = 80,
         respecting_pragma = true,
         newlines_between_decls = 1,
-        haddock_style = "multi",
-        indentation_policy = "indent",
+        haddock_style = "multi-line",
         record_brace_space = true,
         comma_style = "leading",
-        ghc_opt = {},
       }
     },
     hindent = {
