@@ -42,27 +42,28 @@ M.defaults = {
         sort_constraints = false,
         sort_derived_classes = false,
         sort_deriving_clauses = false
-      },
-      hindent = {
-        cmd = "hindent",
-        args = {
-          indent_size = 2,
-          line_length = 80,
-          sort_imports = false,
-          force_trailing_newline = true,
-          preserve_line_breaks = false,
-          preserve_vertical_space = false,
-          flexible_oneline = false,
-        }
+      }
+    },
+    hindent = {
+      cmd = "hindent",
+      args = {
+        indent_size = 2,
+        line_length = 80,
+        sort_imports = false,
+        force_trailing_newline = true,
+        preserve_line_breaks = false,
+        preserve_vertical_space = false,
+        flexible_oneline = false,
       }
     }
   }
+}
 
-  M.options = {}
+M.options = {}
 
-    function M.setup(opts)
+function M.setup(opts)
   M.options = vim.tbl_deep_extend("force", M.defaults, opts or {})
 end
 
-  return M
+return M
 
