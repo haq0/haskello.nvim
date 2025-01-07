@@ -25,8 +25,6 @@ local arg_maps = {
     respectful = "--respectful",
     import_grouping = "--import-grouping",
     sort_constraints = "--sort-constraints",
-    sort_derived_classes = "--sort-derived-classes",
-    sort_deriving_clauses = "--sort-deriving-clauses"
   },
   ormolu = {
     mode = "--mode",

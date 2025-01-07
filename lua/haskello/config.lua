@@ -40,8 +40,6 @@ M.defaults = {
         respectful = true,
         import_grouping = "legacy",
         sort_constraints = false,
-        sort_derived_classes = false,
-        sort_deriving_clauses = false
       }
     },
     hindent = {
